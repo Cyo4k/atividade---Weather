@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima - Consultar Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulte o Clima</h1>
+        <form id="weatherForm">
+            <input type="text" id="cidade" placeholder="Digite o nome da cidade" required>
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <div id="weatherResult">
+            <h2 id="cityName"></h2>
+            <p id="temperatura"></p>
+            <p id="descricaoClima"></p>
+            <p id="Umidade"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
